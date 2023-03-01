@@ -1,0 +1,69 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 0 2em;
+  display: flex;
+  justify-content: center;
+  font-size: 1.25em;
+  color: #fff;
+  line-height: 1.4;
+  background-color: #222;
+}
+
+.flex-container {
+  width: 1200px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.flex-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #fff;
+}
+
+header h1 {
+  font-family: 'Lora', sans-serif;
+  font-size: 3em;
+}
+
+main {
+  border-bottom: 1px solid #fff;
+}
+
+main p {
+  font-size: 1.35em;
+}
+
+span {
+  font-family: 'Lora', sans-serif;
+}
+
+footer {
+  width: 100%;
+  border-top: 1px solid #fff;
+}
+
+footer i {
+  padding: 30px 20px 20px 0;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    padding: 0 1em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .flex-items {
+    flex-basis: 30%;
+    border-bottom: none;
+  }
+
+  #div-2 p {
+    border-left: 1px solid #555;
+    border-right: 1px solid #555;
+    padding: 0 40px;
+  }
+}
